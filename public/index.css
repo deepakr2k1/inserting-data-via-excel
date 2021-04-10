@@ -1,0 +1,71 @@
+body {
+    margin: 8px 48px 8px 48px;
+}
+
+h3 {
+    margin: 24px 0px;
+}
+
+.boundary {
+    text-align: center;
+    border: 1px solid black;
+    border-style: dashed;
+    padding: 16px;
+}
+
+.boundary>div {
+    margin: 8px;
+}
+
+#success {
+    color: rgb(21, 173, 21);
+}
+
+#failed {
+    color: rgb(201, 24, 24);
+}
+
+#file {
+    display: none;
+}
+
+label {
+    margin: 32px;
+}
+
+#button {
+    display: none;
+    margin: 4px 8px 4px 8px;
+    padding: 8px 24px 8px 24px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background: rgb(21, 173, 21);
+    cursor: pointer;
+    outline: none;
+    transition-duration: 0.4s;
+}
+
+#button:hover {
+    background: rgb(15, 136, 15);
+    transition-duration: 0.4s;
+}
+
+#upload_icon {
+    fill: rgb(21, 173, 21);
+    transition-duration: 0.4s;
+}
+
+#upload_icon:hover {
+    cursor: pointer;
+    transform: scale(1.06);
+    transition-duration: 0.4s;
+}
+
+#success_icon {
+    fill: rgb(21, 173, 21);
+}
+
+span {
+    font-weight: 600;
+}
